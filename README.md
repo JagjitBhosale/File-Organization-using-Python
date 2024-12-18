@@ -91,16 +91,6 @@ for filename in os.listdir(directory):
 
 ---
 
-## Future Enhancements
-
-- Support for nested directories in the source folder.
-- Logging for better debugging and monitoring.
-- Option to exclude certain file types from being organized.
-
----
-
-## License
-
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per your needs.
 
 ---
