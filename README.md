@@ -88,11 +88,3 @@ for filename in os.listdir(directory):
         os.makedirs(destination_path, exist_ok=True)
         move_file(f, destination_path)
 ```
-
----
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as per your needs.
-
----
-
-You can copy this simpler version without big headings and any other formatting!
