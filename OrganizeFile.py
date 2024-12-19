@@ -27,7 +27,7 @@ for filename in os.listdir(directory):           ##It will Itterate one by one o
     
     # checking if it is a file
     if os.path.isfile(f):
-        filetype = f.split(".")[1]              ##Seperated the file path string into parts of list and take the first index( eg: hello.txt will be seperated in [hello,txt] so filetype = txt)
+        filetype = f.split(".")[-1]              ##Seperated the file path string into parts of list and take the first index( eg: hello.txt will be seperated in [hello,txt] so filetype = txt)
         source_path = f                         ##the path of file from unorganized folder will one by on
         destination_path = f"organized\{filetype}"
         os.makedirs(destination_path,exist_ok=True)
